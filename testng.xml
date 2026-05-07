@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Exercise Full Regression Suite">
+
+    <test name="Landing Page Test Suite">
+        <classes>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Login Signup Page Test Suite">
+        <classes>
+            <class name="tests.LoginSignupPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Products Page Test Suite">
+        <classes>
+            <class name="tests.ProductsPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Sidebar Category and Brand Test Suite">
+        <classes>
+            <class name="tests.ProductSidebarTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Details Page Test Suite">
+        <classes>
+            <class name="tests.ProductDetailsPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Page Test Suite">
+        <classes>
+            <class name="tests.CartPageTest"/>
+        </classes>
+    </test>
+</suite>
